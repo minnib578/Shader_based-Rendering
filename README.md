@@ -6,9 +6,9 @@ Implementing the following functions:
 
 a. Create two windows: one is for fixed pipeline rendering (e.g., from your first assignment) and the other one is for shader-based rendering.
 
-b. Calculate the model-view and projection matrix by yourself (third-party libraries like glm are not allowed).
+b. Calculate the model-view and projection matrix (third-party libraries like glm are not allowed).
 
-c. Write code for vertex position transformation by passing your own model-view and projection matrix to the vertex shader. 
+c. Write code for vertex position transformation by passing model-view and projection matrix to the vertex shader. 
 
 d. Support translations and rotations of the virtual camera. Translations and rotations should be defined with respect to the coordinate system of the camera (CCS).
 
