@@ -1,0 +1,15 @@
+#version 330 core
+
+out vec4 color;
+uniform vec4 objectcolor;
+
+
+void main()
+{	
+	//color = vec4(vec3((10*am.xyz+ 0*diffuse.xyz)*objectcolor.xyz + 0*specular.xyz),1.0);
+
+	//color = vec4((vec3(am.xyz+ diffuse.xyz + specular.xyz + objectcolor.xyz)/4),1.0);
+	//color = vec4((vec3(LightingColor.xyz + objectcolor.xyz)/4),1.0);
+	//color = LightingColor*vec4((objectcolor.xyz),1.0);
+	color=objectcolor;
+} 
